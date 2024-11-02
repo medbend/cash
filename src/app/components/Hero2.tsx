@@ -1,5 +1,7 @@
 import React from 'react'
 import Writer from './Writer'
+import { BiMoneyWithdraw } from 'react-icons/bi'
+import { MdAttachMoney } from 'react-icons/md'
 
 const Hero2 = () => {
   return (
@@ -10,7 +12,10 @@ const Hero2 = () => {
         <p className="py-6">
           استخدم كود برومو الخاص بنا لاسترجاع 10% من خسائرك والحصول على بونيس 100% ابدأ الان الربح معنا
         </p>
-        <button className="btn bg-base-100 text-neutral">شحن رصيد</button>
+       <div className='flex gap-6 items-center justify-center w-full'>
+       <button className="btn bg-base-100 hover:bg-white text-base-200">شحن رصيد <MdAttachMoney /></button>
+       <button className="btn bg-green-300 hover:bg-slate-50 text-base-200">سحب الأرباح <BiMoneyWithdraw /></button>
+       </div>
       </div>
     </div>
   </div>

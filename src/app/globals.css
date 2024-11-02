@@ -17,4 +17,7 @@ body{
     min-width: 0;
     gap: 5;
   }
-  
+  .zoomed-in:hover {
+    transform: scale(1.1); /* Increase the scale as needed */
+    transition: transform 0.3s ease-in-out;
+  }

@@ -1,8 +1,10 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-base-100 text-neutral-content items-center p-4">
+    <footer className="footer bg-base-100 text-neutral-content items-center px-20 py-4 relative">
+         <a aria-label="Chat on WhatsApp" href="https://wa.me/0639125098" className="fixed bottom-5 left-5 cursor-pointer zoomed-in" ><Image src="/whatsapp.png" alt='whatsapp contact' width={64} height={64}/> </a>
   <aside className="grid-flow-col items-center">
     <svg
       width="36"
