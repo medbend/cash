@@ -1,9 +1,10 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import { BiMoneyWithdraw } from 'react-icons/bi'
 import { GrMoney } from 'react-icons/gr'
 import ThemeController from './ThemeController'
-
+import { motion } from "framer-motion"
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 dark:bg-base-300 text-base-200 dark:text-base-100">
@@ -38,7 +39,15 @@ const Navbar = () => {
           <li><a>رابط </a></li>
         </ul>
       </div>
-      <a className="btn btn-ghost text-xl text-base-200 dark:text-base-100">موبي كاش</a>
+      <motion.a
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20
+        }}
+      className="btn btn-ghost text-xl text-base-200 dark:text-base-100">موبي كاش</motion.a>
     </div>
     <div className="navbar-center hidden lg:flex text-base-200 dark:text-base-100 ">
       <ul className="menu menu-horizontal px-1 text-base-200 dark:text-base-100">
