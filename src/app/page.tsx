@@ -9,8 +9,7 @@ import {
 import EmblaCarousel from "./components/EmblaCarousel";
 import Footer from "./components/Footer";
 import Hero2 from "./components/Hero2";
-import PromoCode from "./components/PromoCode";
-import Clipboard from "./components/Clipboard";
+
 
 export default function Home() {
   const OPTIONS: EmblaOptionsType = { direction: 'rtl', loop: true }
