@@ -7,9 +7,9 @@ import ThemeController from './ThemeController'
 import { motion } from "framer-motion"
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 dark:bg-base-300 text-base-200 dark:text-base-100">
+    <div className="navbar bg-stone-100 dark:bg-base-300 text-stone-900 dark:text-base-100">
     <div className="navbar-start">
-      <div className="dropdown text-base-200 dark:text-base-100">
+      <div className="dropdown text-stone-900 dark:text-stone-100">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,12 +26,12 @@ const Navbar = () => {
         </div>
         <ul
           tabIndex={0}
-          className="menu menu-sm dropdown-content bg-base-100 dark:bg-base-300 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base-200 dark:text-base-100">
+          className="menu menu-sm dropdown-content bg-stone-100 dark:bg-stone-950 rounded-box z-[1] mt-3 w-52 p-2 shadow text-stone-900 dark:text-stone-100">
           <li><a>السحب<BiMoneyWithdraw /></a></li>
           <li><a>الإيداع <GrMoney /></a></li>
           <li>
             <a>قائمة</a>
-            <ul className="p-2 bg-base-100 dark:bg-base-200 text-base-200 dark:text-base-100">
+            <ul className="p-2 bg-stone-100 dark:bg-stone-900 text-stone-900 dark:text-stone-100">
               <li><a></a>الإيداع <GrMoney /></li>
               <li><a>السحب <BiMoneyWithdraw /></a></li>
             </ul>
@@ -47,18 +47,18 @@ const Navbar = () => {
           stiffness: 260,
           damping: 20
         }}
-      className="btn btn-ghost text-xl text-base-200 dark:text-base-100">موبي كاش</motion.a>
+      className="btn btn-ghost text-xl text-stone-900 dark:text-stone-100">موبي كاش</motion.a>
     </div>
-    <div className="navbar-center hidden lg:flex text-base-200 dark:text-base-100 ">
-      <ul className="menu menu-horizontal px-1 text-base-200 dark:text-base-100">
+    <div className="navbar-center hidden lg:flex text-stone-900 dark:text-stone-100 ">
+      <ul className="menu menu-horizontal px-1 text-stone-900 dark:text-stone-100">
       <li><a>الإيداع <GrMoney /></a></li>
       <li><a>السحب <BiMoneyWithdraw /></a></li>
         <li>
           <details className=''>
-            <summary className='text-base-200 dark:text-base-100'>قائمة</summary>
+            <summary className='text-stone-900 dark:text-stone-100'>قائمة</summary>
             <ul className="p-2">
-              <li className='text-base-100'><a>رابط 1</a></li>
-              <li className='text-base-100'><a>صفحة 2</a></li>
+              <li className='text-stone-100'><a>رابط 1</a></li>
+              <li className='text-stone-100'><a>صفحة 2</a></li>
             </ul>
           </details>
         </li>

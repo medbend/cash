@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-base-100 dark:bg-base-300 text-base-200 dark:text-base-100 items-center px-20 py-4 relative">
+    <footer className="footer bg-stone-100 dark:bg-stone-950 text-stone-900 dark:text-stone-100 items-center px-20 py-4 my-4 relative">
          <a aria-label="Chat on WhatsApp" href="https://wa.me/0639125098" className="fixed bottom-5 left-5 cursor-pointer zoomed-in" ><Image src="/whatsapp.png" alt='whatsapp contact' width={64} height={64}/> </a>
   <aside className="grid-flow-col items-center">
     <svg

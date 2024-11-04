@@ -6,7 +6,7 @@ import { MdAttachMoney } from 'react-icons/md'
 import { motion } from "framer-motion"
 const Hero2 = () => {
   return (
-    <div className="hero bg-slate-200 dark:bg-base-200 text-base-200 dark:text-base-100 min-h-screen">
+    <div className="hero bg-stone-200 dark:bg-stone-800 text-stone-900 dark:text-stone-100 min-h-screen">
     <div className="hero-content text-center">
       <div className="max-w-md">
         <h1 className="text-5xl font-bold"><Writer /></h1>
@@ -25,7 +25,7 @@ const Hero2 = () => {
          delay: 1.2,
          duration: 0.3,
        }}
-       className="btn bg-base-100 hover:bg-white text-base-200">شحن رصيد <MdAttachMoney /></motion.button>
+       className="btn bg-stone-100 hover:bg-white text-stone-900">شحن رصيد <MdAttachMoney /></motion.button>
        <motion.button
        initial={{ opacity: 0, y: -100 }}
        whileInView={{ opacity: 1, y: 0 }}

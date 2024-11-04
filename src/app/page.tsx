@@ -18,7 +18,7 @@ export default function Home() {
    <section>
     <Navbar />
     <Hero2 />
-   <div className="bg-slate-200 dark:bg-black p-6 my-4">
+   <div className="bg-stone-200 dark:bg-stone-950 p-6 my-4">
    <EmblaCarousel slides={SLIDES} options={OPTIONS} />
    </div>
     <Footer />
