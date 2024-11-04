@@ -9,6 +9,8 @@ import {
 import EmblaCarousel from "./components/EmblaCarousel";
 import Footer from "./components/Footer";
 import Hero2 from "./components/Hero2";
+import PromoCode from "./components/PromoCode";
+import Clipboard from "./components/Clipboard";
 
 export default function Home() {
   const OPTIONS: EmblaOptionsType = { direction: 'rtl', loop: true }
@@ -20,7 +22,9 @@ export default function Home() {
     <Hero2 />
    <div className="bg-stone-200 dark:bg-stone-950 p-6 my-4">
    <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+  
    </div>
+  
     <Footer />
    </section>
   );

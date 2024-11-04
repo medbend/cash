@@ -4,6 +4,7 @@ import Writer from './Writer'
 import { BiMoneyWithdraw } from 'react-icons/bi'
 import { MdAttachMoney } from 'react-icons/md'
 import { motion } from "framer-motion"
+import Clipboard from './Clipboard'
 const Hero2 = () => {
   return (
     <div className="hero bg-stone-200 dark:bg-stone-800 text-stone-900 dark:text-stone-100 min-h-screen">
@@ -38,7 +39,14 @@ const Hero2 = () => {
        }}
         className="btn bg-green-300 hover:bg-slate-50 text-base-200">سحب الأرباح <BiMoneyWithdraw /></motion.button>
        </div>
+       <div className='my-4 flex flex-col gap-3'>
+        <h1>اختر كود برومو</h1>
+         <Clipboard text={"code 1xbet"} platform={"1xbet كود برومو "} />
+         <Clipboard text={"code linebet"} platform={"linebet كود برومو "} />
+         <Clipboard text={"code xparibet"} platform={"xparibet كود برومو "} />
+         </div>
       </div>
+      
     </div>
   </div>
   )
