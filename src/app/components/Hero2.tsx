@@ -5,7 +5,7 @@ import { MdAttachMoney } from 'react-icons/md'
 
 const Hero2 = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-slate-200 dark:bg-base-200 text-base-200 dark:text-base-100 min-h-screen">
     <div className="hero-content text-center">
       <div className="max-w-md">
         <h1 className="text-5xl font-bold"><Writer /></h1>
