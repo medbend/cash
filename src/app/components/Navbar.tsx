@@ -7,7 +7,7 @@ import ThemeController from './ThemeController'
 import { motion } from "framer-motion"
 const Navbar = () => {
   return (
-    <div className="navbar bg-stone-100 dark:bg-base-300 text-stone-900 dark:text-base-100">
+    <div className="navbar bg-stone-100 dark:bg-stone-950 text-stone-900 dark:text-base-100">
     <div className="navbar-start">
       <div className="dropdown text-stone-900 dark:text-stone-100">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
