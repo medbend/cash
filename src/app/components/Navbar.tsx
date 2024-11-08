@@ -47,7 +47,7 @@ const Navbar = () => {
           stiffness: 260,
           damping: 20
         }}
-      className="btn btn-ghost text-xl text-stone-900 dark:text-stone-100">موبي كاش</motion.a>
+      className="btn btn-ghost text-xl text-stone-900 dark:text-stone-100"> <b>بيت</b>بوكس<b></b></motion.a>
     </div>
     <div className="navbar-center hidden lg:flex text-stone-900 dark:text-stone-100 ">
       <ul className="menu menu-horizontal px-1 text-stone-900 dark:text-stone-100">

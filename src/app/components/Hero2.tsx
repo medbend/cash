@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Writer from './Writer'
 import { BiMoneyWithdraw } from 'react-icons/bi'
 import { MdAttachMoney } from 'react-icons/md'
 import { motion } from "framer-motion"
@@ -10,7 +9,17 @@ const Hero2 = () => {
     <div className="hero bg-stone-200 dark:bg-stone-800 text-stone-900 dark:text-stone-100 min-h-screen">
     <div className="hero-content text-center">
       <div className="max-w-md">
-        <h1 className="text-5xl font-bold"><Writer /></h1>
+        <motion.h1
+         initial={{ opacity: 0, y: -100 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{
+           type: "spring",
+           damping: 10,
+           stiffness: 100,
+           delay: 1.2,
+           duration: 0.3,
+         }} className="text-5xl font-bold">اشحن حسابك معنا</motion.h1>
+
         <p className="py-6">
           استخدم كود برومو الخاص بنا لاسترجاع 10% من خسائرك والحصول على بونيس 100% ابدأ الان الربح معنا
         </p>
@@ -41,9 +50,11 @@ const Hero2 = () => {
        </div>
        <div className='my-4 flex flex-col gap-3'>
         <h1>اختر كود برومو</h1>
-         <Clipboard text={"code 1xbet"} platform={"1xbet كود برومو "} />
-         <Clipboard text={"code linebet"} platform={"linebet كود برومو "} />
-         <Clipboard text={"code xparibet"} platform={"xparibet كود برومو "} />
+      
+        <Clipboard named={"1xbet"} text={"code 1xbet"} platform={" كود برومو "} />
+         <Clipboard named={"linebet"} text={"code linebet"} platform={" كود برومو "} />
+         <Clipboard named={"xparibet"} text={"code xparibet"} platform={" كود برومو "} />
+ 
          </div>
       </div>
       

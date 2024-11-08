@@ -1,5 +1,5 @@
 
-import Navbar from "./components/Navbar";
+
 
 import "../app/css/embla.css"
 import {
@@ -7,8 +7,10 @@ import {
   EmblaOptionsType
 } from 'embla-carousel'
 import EmblaCarousel from "./components/EmblaCarousel";
-import Footer from "./components/Footer";
 import Hero2 from "./components/Hero2";
+
+
+
 
 
 export default function Home() {
@@ -17,14 +19,13 @@ export default function Home() {
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
   return (
    <section>
-    <Navbar />
+
     <Hero2 />
    <div className="bg-stone-200 dark:bg-stone-950 p-6 my-4">
    <EmblaCarousel slides={SLIDES} options={OPTIONS} />
   
    </div>
-  
-    <Footer />
+
    </section>
   );
 }
