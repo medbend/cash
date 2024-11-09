@@ -4,6 +4,7 @@ import { BiMoneyWithdraw } from 'react-icons/bi'
 import { MdAttachMoney } from 'react-icons/md'
 import { motion } from "framer-motion"
 import Clipboard from './Clipboard'
+import Writer from './Writer'
 const Hero2 = () => {
   return (
     <div className="hero bg-stone-200 dark:bg-stone-800 text-stone-900 dark:text-stone-100 min-h-screen">
@@ -19,7 +20,7 @@ const Hero2 = () => {
            delay: 1.2,
            duration: 0.3,
          }} className="text-5xl font-bold">اشحن حسابك معنا</motion.h1>
-
+<h1 className='mt-6 text-3xl'><Writer /></h1>
         <p className="py-6">
           استخدم كود برومو الخاص بنا لاسترجاع 10% من خسائرك والحصول على بونيس 100% ابدأ الان الربح معنا
         </p>

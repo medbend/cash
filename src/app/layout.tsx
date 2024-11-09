@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "BetBux",
-  description: "Charger votre compte et retirer vos agents rapidement",
+  description: "Charger votre compte et retirer vos argents rapidement",
 };
 
 export default function RootLayout({

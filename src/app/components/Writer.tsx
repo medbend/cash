@@ -5,7 +5,7 @@ const Writer = () => {
   return (
     <Typewriter
     options={{
-      strings: ['اشحن حسابك معنا', 'سرعة في الايداع',"سرعة في السحب"],
+      strings: ['1xbet','linebet','xparibet'],
       autoStart: true,
       loop: true,
     }}
