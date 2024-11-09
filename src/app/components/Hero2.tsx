@@ -46,7 +46,7 @@ const Hero2 = () => {
          delay: 1.5,
          duration: 0.3,
        }}
-        className="btn bg-green-300 hover:bg-slate-50 text-base-200">سحب الأرباح <BiMoneyWithdraw /></motion.button>
+        className="btn bg-green-500 hover:bg-slate-200 text-base-200">سحب الأرباح <BiMoneyWithdraw /></motion.button>
        </div>
        <div className='my-4 flex flex-col gap-3'>
         <h1>اختر كود برومو</h1>

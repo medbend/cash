@@ -5,6 +5,7 @@ import { BiMoneyWithdraw } from 'react-icons/bi'
 import { GrMoney } from 'react-icons/gr'
 import ThemeController from './ThemeController'
 import { motion } from "framer-motion"
+import { FaTelegram, FaWhatsapp } from 'react-icons/fa'
 const Navbar = () => {
   return (
     <div className="navbar bg-stone-100 dark:bg-stone-950 text-stone-900 dark:text-base-100">
@@ -47,7 +48,7 @@ const Navbar = () => {
           stiffness: 260,
           damping: 20
         }}
-      className="btn btn-ghost text-xl text-stone-900 dark:text-stone-100"> <b>بيت</b>بوكس<b></b></motion.a>
+      className="btn btn-ghost text-xl text-stone-900 dark:text-stone-100"><Image src="/logoGreen.svg" height={32} width={32} alt='logo betbux '/> <b>بيت</b><span className='text-green-500'>بوكس</span></motion.a>
     </div>
     <div className="navbar-center hidden lg:flex text-stone-900 dark:text-stone-100 ">
       <ul className="menu menu-horizontal px-1 text-stone-900 dark:text-stone-100">
@@ -68,7 +69,8 @@ const Navbar = () => {
     <div className="navbar-end">
       <ThemeController />
       <div className="divider divider-horizontal">|</div>
-      <a aria-label="Chat on WhatsApp" href="https://wa.me/0639125098" className="zoomed-in"><Image src="/whatsapp.png" alt='whatsapp contact' width={45} height={45}/> </a>
+      <a aria-label="Chat on WhatsApp" href="https://wa.me/0639125098" className="zoomed-in"><FaTelegram /> <FaWhatsapp />
+      </a>
       {/* <a href="tel:0639125098" className="zoomed-in"><Image src="/Phone_icon.png" alt='whatsapp contact' width={32} height={32}/> </a> */}
     </div>
   </div>
